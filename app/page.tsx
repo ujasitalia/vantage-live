@@ -2,7 +2,6 @@ import { categories } from "@/constants";
 import fetchNews from "@/lib/fetchNews";
 import React from "react";
 import NewsList from "./NewsList";
-import response from "../response.json";
 
 async function HomePage() {
   // fetch news data
